@@ -1,0 +1,31 @@
+Main Question
+stack, queue, linked list, tree, binary tree, hash, heap, string, string matching, array, trie, Dynamic Programming
+
+coin change problem
+
+Remaining
+Stack - infix to prefix, next greater element, reverse a stack using recursion, The Stock Span Problem
+
+
+IMP QUESTIONS
+sort
+	- merge sort, quick sort
+
+Stack
+	- implement stack using queues
+	- infix to postfix
+	- reverse a string using stack, balanced paranthesis
+	- reverse a stack using recursion
+
+Linked List
+	- reverse a linked list
+	- detect a loop in linked list
+
+Dynamic Programming
+	- coin change problem
+
+Divide and conquor
+	- Maximum stock problem
+
+Trie
+	- contacts management
