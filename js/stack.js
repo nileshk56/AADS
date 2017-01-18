@@ -1,3 +1,44 @@
+function Stack() 
+{
+	this.arr = [];
+	this.top = -1;
+
+	this.push = function(data) {
+		this.arr[++this.top] = data;
+	}
+
+	this.pop = function(){
+		console.log(this.arr[this.top]);
+		this.top--;
+	}
+
+	this.infixToPostfix = infixToPostfix
+}
+
+var s = new Stack();
+
+s.push("5");
+s.push("2");
+s.push("7");
+
+console.log(s.arr);
+
+s.pop()
+s.pop()
+s.pop()
+
+//infix to postfix//////////////////////////////////////////////////////
+/*
+	a + b = infix; a b + = postfix
+	a + b * c = infix
+	a b c * + = a (b c *) + = postfix, first calculate the result of bc*(which means b*c) then add it to a	
+*/
+function infixToPostfix()
+{
+
+}
+
+
 // Reverse a stack using recursion ###################################################
 var arrStack = [1, 2, 3, 4, 5];
 
