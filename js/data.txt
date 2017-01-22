@@ -4,7 +4,7 @@ stack, queue, linked list, tree, binary tree, hash, heap, string, string matchin
 coin change problem
 
 Remaining
-Stack - infix to prefix, next greater element, reverse a stack using recursion, The Stock Span Problem
+Stack -  reverse a stack using recursion, The Stock Span Problem
 
 
 IMP QUESTIONS
@@ -16,10 +16,16 @@ Stack
 	- infix to postfix
 	- reverse a string using stack, balanced paranthesis
 	- reverse a stack using recursion
+	- next greater element
 
 Linked List
 	- reverse a linked list
-	- detect a loop in linked list
+	- detect & remove a loop in linked list
+	- Swap nodes in a linked list without swapping data
+	- Merge two sorted linked lists
+	- Merge Sort for Linked Lists
+	- Reverse a Linked List in groups of given size
+
 
 Dynamic Programming
 	- coin change problem
