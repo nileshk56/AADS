@@ -4,7 +4,19 @@ stack, queue, linked list, tree, binary tree, hash, heap, string, string matchin
 coin change problem
 
 Remaining
-Stack -  reverse a stack using recursion, The Stock Span Problem
+Stack -  reverse a stack using recursion, The Stock Span Problem, Construct Tree from given Inorder and Preorder traversals
+
+Binary tree - connect all nodes at same level, Clone a Binary Tree with Random Pointers, If you are given two traversal sequences, can you construct the binary tree?
+
+BST - Lowest Common Ancestor in a Binary Search Tree, Merge two BSTs with limited extra space, Two nodes of a BST are swapped, correct the BST, all after 10.
+ 
+Binary Heaps - Binomial Heap, Fibonacci Heap, Sort a nearly sorted (or K sorted) array, Tournament Tree (Winner Tree) and Binary Heap
+
+
+
+
+
+
 
 
 IMP QUESTIONS
@@ -25,6 +37,21 @@ Linked List
 	- Merge two sorted linked lists
 	- Merge Sort for Linked Lists
 	- Reverse a Linked List in groups of given size
+
+Binary Tree
+	- Height of a tree
+	- Diameter of a tree
+	- max width of a tree
+	- BFS, DFS(preorder, postorder inorder)
+	- connect all nodes at same level
+	- Print Ancestors of a given node in Binary Tree
+	- Print nodes at k distance from root
+	- threaded binary tree
+ BST
+ 	- Search insert delete
+ 	- Inorder successor and precedessor
+ 	- Lowest common ancestor
+ 	- Floor and Ceil of a value
 
 
 Dynamic Programming

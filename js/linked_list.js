@@ -50,9 +50,10 @@ function linkedList(){
 		if(slow == fast)
 		{
 			slow = this.head;
-			if(slow != fast.next) {
+			while(slow != fast.next) {
 				slow = slow.next;
 				fast = fast.next;
+				console.log('loop2', fast.data, slow.data);
 			}
 			fast.next = null;
 		}
