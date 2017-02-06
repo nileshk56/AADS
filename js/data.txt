@@ -1,5 +1,5 @@
 Main Question
-stack, queue, linked list, tree, binary tree, hash, heap, string, string matching, array, trie, Dynamic Programming
+sort, stack, queue, linked list, tree, binary tree, hash, heap, string, string matching, array, trie, Dynamic Programming
 
 coin change problem
 
@@ -55,7 +55,17 @@ Binary Tree
 
 
 Dynamic Programming
-	- coin change problem
+	- coin change problem / Find minimum number of coins that make a given value
+	- Towers of Hanoi
+	- Matrix Chain Multiplication
+	- 0-1 Knapsack Problem
+	- Egg Dropping Puzzle
+	- Longest Palindromic Subsequence
+	- Cutting a Rod
+	- Box Stacking Problem
+	- Program for Fibonacci numbers
+	- Largest Sum Contiguous Subarray
+	- Longest Palindromic Substring
 
 Divide and conquor
 	- Maximum stock problem
