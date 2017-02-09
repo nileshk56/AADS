@@ -47,12 +47,18 @@ Binary Tree
 	- Print Ancestors of a given node in Binary Tree
 	- Print nodes at k distance from root
 	- threaded binary tree
- BST
+BST
  	- Search insert delete
  	- Inorder successor and precedessor
  	- Lowest common ancestor
  	- Floor and Ceil of a value
 
+HEAP 
+	- Heap sort
+	- priority que
+	- K’th Largest Element in an array
+	- Sort an almost sorted array/
+	- Tournament Tree (Winner Tree) and Binary Heap
 
 Dynamic Programming
 	- coin change problem / Find minimum number of coins that make a given value
