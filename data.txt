@@ -21,7 +21,7 @@ Binary Heaps - Binomial Heap, Fibonacci Heap, Sort a nearly sorted (or K sorted)
 
 IMP QUESTIONS
 sort
-	- merge sort, quick sort
+	- merge sort, quick sort, radix
 
 Stack
 	- implement stack using queues
@@ -37,6 +37,7 @@ Linked List
 	- Merge two sorted linked lists
 	- Merge Sort for Linked Lists
 	- Reverse a Linked List in groups of given size
+	- Linked List is palindrome?
 
 Binary Tree
 	- Height of a tree
@@ -47,6 +48,7 @@ Binary Tree
 	- Print Ancestors of a given node in Binary Tree
 	- Print nodes at k distance from root
 	- threaded binary tree
+
 BST
  	- Search insert delete
  	- Inorder successor and precedessor
@@ -81,6 +83,9 @@ Dynamic Programming
 
 Divide and conquor
 	- Maximum stock problem
+
+Array & String
+	- permutation of string
 
 Trie
 	- contacts management

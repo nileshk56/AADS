@@ -5,6 +5,7 @@ function Node(data){
 
 function linkedList(){
 	this.head = null;
+	this.left = null;
 
 	this.insertLL = function (data) {
 		var newNode = new Node(data);
@@ -59,6 +60,26 @@ function linkedList(){
 		}
 	}
 
+	this.isPalindrome = function(right)
+	{
+		if(right == null) 
+			return true;
+
+		var isp = this.isPalindrome(right.next);
+
+		if(isp == false) {
+			return false;
+		}
+
+		if(this.left.data == right.data) {
+			if(this.left.next)
+				this.left = this.left.next;
+			return true;
+		}
+
+		return false;
+	}
+
 
 
 }
@@ -80,5 +101,15 @@ LL2.head.next = tmp;
 LL2.head.next.next = new Node(3);
 LL2.head.next.next.next = new Node(4);
 LL2.head.next.next.next.next = tmp;
-LL2.detectNRemoveLoop();
-LL2.printLL();
+//LL2.detectNRemoveLoop();
+//LL2.printLL();
+
+var LL3 = new linkedList();
+LL3.head = new Node(1);
+LL3.head.next = new Node(2);
+LL3.head.next.next = new Node(3);
+LL3.head.next.next.next = new Node(2);
+LL3.head.next.next.next.next = new Node(1);
+LL3.left = LL3.head;
+var isp = LL3.isPalindrome(LL3.head);
+console.log(isp);
