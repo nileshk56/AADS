@@ -29,6 +29,7 @@ Stack
 	- reverse a string using stack, balanced paranthesis
 	- reverse a stack using recursion
 	- next greater element
+	- push, pop and min in O(1)
 
 Linked List
 	- reverse a linked list

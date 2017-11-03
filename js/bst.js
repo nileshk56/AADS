@@ -39,11 +39,31 @@ function BST(){
 	}
 }
 
+//build a BST of minimal height with sorted arrays
+BST.prototype.buildBST = function(){
+	var A = [1,2,3,4,5,6,7];
+
+	function genBST(st, end){
+		if(st == end){
+			return new Node(A[st]);
+		}
+		var mid = Math.floor((st+end)/2);
+		var root = new Node(A[mid]);
+		root.left = genBST(st, mid-1);
+		root.right = genBST(mid+1, end);
+		return root;
+	}
+
+	console.log(genBST(0,6));
+}
+
 var bst1 = new BST();
 bst1.root = bst1.insert(bst1.root, 20);
 bst1.root = bst1.insert(bst1.root, 10);
 bst1.root = bst1.insert(bst1.root, 15);
 bst1.root = bst1.insert(bst1.root, 25);
 
-bst1.kthSmall(bst1.root, 4);
-console.log(bst1.root);
+//bst1.kthSmall(bst1.root, 4);
+//console.log(bst1.root);
+
+bst1.buildBST();
