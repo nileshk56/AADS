@@ -35,7 +35,36 @@ function swap(a,b) {
 	Arr[b] = tmp;
 }
 
-console.time("a");
+function bucketSort(){
+	var A = [56,45,12,32,23,67,76,98,89,1];
+	var n = A.length;
+	var bucket = [];
+	var A1 = [];
+	for(var i = 0; i< n; i++) {
+		var bucketNo = Math.floor(A[i]/n);
+
+		if(!Array.isArray(bucket[bucketNo])) {
+			bucket[bucketNo] = [];
+		}
+
+		bucket[bucketNo].push(A[i]);
+	}
+
+	for(var i = 0; i<n; i++) {
+		bucket[bucketNo].sort();
+	}
+
+	for(var i = 0; i<n; i++) {
+		for(var j = 0; j<bucket[i].length; j++) {
+			A1.push(bucket[i][j])
+		}
+	}
+	console.log(A1);
+}
+
+/*console.time("a");
 quickSort(0, Arr.length - 1);
 console.timeEnd("a");
-console.log(Arr);
+console.log(Arr);*/
+
+bucketSort();

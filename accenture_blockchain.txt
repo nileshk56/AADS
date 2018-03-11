@@ -1,0 +1,57 @@
+Job description
+Accenture Technology powers our clients’ businesses with innovative technologies—established and emerging—changing the way their people and customers experience work, life and entertainment. Join Accenture Technology and you’ll translate the operational needs of the world’s governments and leading businesses into the innovative technical solutions that will enable them to better serve their customers—your friends, family and neighbors. You’ll deliver everything from point solutions for a single business function to large, long-term outsourcing services, to complex systems integration installations spanning multiple businesses and functions. You’ll create custom-designed solutions or integrate our technology platforms with their operations.
+Role : Business and Integration Architect
+Role Description : Work directly with the client gathering requirements to align technology with business strategy and goals and. Experts internally and externally for their deep functional or industry expertise, domain knowledge, or offering expertise.
+Must Have Skills : Blockchain, JavaScript, Node JS, Java J2EE
+Good to have : Ajax, Mongo DB, REST, JSON, Angular JS, Blockchain Platform Architecture – Quorum, Hyperledger, R3 Corda, AWS MS Azure
+Job Description
+Blockchain platform deployment on cloud
+Resource should be required to work independently or as part of a collaborative team in designing, developing and deploying smart contract based blockchain applications to solve real business problems
+Responsible for building or integrating with the business logic application software and architect and develop complex solutions
+Required to showcase how Blockchain technology works and how it can be integrated to client’s legacy platforms and IoT gateways LimelightPlayerUtil.initEmbed('limelight_player_812830');
+Full Time Graduation
+
+-------------------------------------------------------------------------
+
+Tutorial
+
+The following table explores the differences between Hyperledger's permissioned distributed ledgers and the Bitcoin and Ethereum permissionless blockchains. If you are considering blockchain solutions for your business requirements, it is important to pay attention to all these elements and weigh in on those that are most important for your use case.
+
+Bitcoin
+Ethereum
+Hyperledger Frameworks
+Cryptocurrency based
+Yes
+Yes
+No
+Permissioned
+No
+No
+Yes (in general)*
+Pseudo-anonymous
+Yes
+No
+No
+Auditable
+Yes
+Yes
+Yes
+Immutable ledger
+Yes
+Yes
+Yes
+Modularity
+No
+No
+Yes
+Smart contracts
+No
+Yes
+Yes
+Consensus protocol
+PoW
+PoW
+Various**
+*Sawtooth can be configured to be permissionless
+
+**Key Hyperledger consensus protocols are Apache Kafka in Hyperledger Fabric, PoET in Hyperledger Sawtooth, RBFT in Hyperledger Indy, Tendermint in Hyperledger Burrow, and Yet Another Consensus (YAC) in Hyperledger Iroha. For more details, see the Hyperledger Architecture, Volume 1 paper.

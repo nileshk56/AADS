@@ -72,7 +72,56 @@ function topologicalSorting() {
     }
 }
 
-topologicalSorting();
-/**
- 12345
- */
+function dijkstras(){
+    var INF = 100;
+    
+    var G = [
+        [0, 2, INF, 4, INF],
+        [INF, 0, 1, INF, INF],
+        [INF, INF, 0, INF, 3],
+        [INF, INF, INF, 0, 10],
+        [INF, INF, INF, INF, 0]
+    ];
+
+    var dist = [INF, INF, INF, INF, INF];
+    var sptSet = [];
+
+    dist[0] = 0;
+    for(var i = 0; i<G.length; i++) {
+
+        var min = fetchMin() ;
+        console.log(min)
+        sptSet[min] = true;
+
+        updateDistance(min);
+        console.log('dist',dist)
+
+    }
+
+    function fetchMin() {
+        
+        var min = INF;
+        var minKey = -1;
+        
+        for(var i = 0; i<G.length; i++) {
+
+            if(dist[i] < min && !sptSet[i]) {
+                min = dist[i];
+                minKey = i
+            }
+
+        }
+
+        return minKey;
+    }
+
+    function updateDistance(key) {
+        for(var j = 0; j<G.length; j++) {
+            if(!sptSet[j] && G[key][j] != INF && (G[key][j] + dist[key]) < dist[j]) {
+                dist[j] = G[key][j] + dist[key];
+            }
+        }
+    }
+
+    console.log(dist)
+}

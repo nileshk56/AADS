@@ -1,5 +1,5 @@
 Main Question
-sort, stack, queue, linked list, tree, binary tree, hash, heap, string, string matching, array, trie, Dynamic Programming
+sort, stack, queue, linked list, tree, binary tree, hash, heap, string, string matching, array, trie, graph, Dynamic Programming, divide and conquer, greedy algorithms
 
 coin change problem
 
@@ -21,7 +21,8 @@ Binary Heaps - Binomial Heap, Fibonacci Heap, Sort a nearly sorted (or K sorted)
 
 IMP QUESTIONS
 sort
-	- merge sort, quick sort, radix
+	- merge sort, quick sort, radix, heap sort
+	- Which is better quick sort or merge sort or in which condition you choose quicksort or merge sort
 
 Stack
 	- implement stack using queues
@@ -66,8 +67,9 @@ HEAP
 GRAPH
 	- BFS / DFS
 	- Dijsktras
-	- Kruskal MST
+	- Prims MST
 	- Topological sort
+	- A*
 
 Dynamic Programming
 	- coin change problem / Find minimum number of coins that make a given value
@@ -90,3 +92,13 @@ Array & String
 
 Trie
 	- contacts management
+	
+
+
+Daily Solving 
+Mon - Dynamic Programming, Divide and Conqure, Recursion
+Tue - Graph, Tree(BST, Balanced tree)
+Wed - linked list, hash, heap
+Thu - Sort, Stack, Queue,
+Fri - Array, string, string matching
+Sat - Greedy algorithms and other learning
