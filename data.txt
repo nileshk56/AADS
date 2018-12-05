@@ -102,3 +102,8 @@ Wed - linked list, hash, heap
 Thu - Sort, Stack, Queue,
 Fri - Array, string, string matching
 Sat - Greedy algorithms and other learning
+
+IN DP you'll come across several problems that seem challenging, but are actually just variants of these general problems given below:
+
+Knapsack,LCS,Matrix Chain Multiplication,Coin Change,LIS,Edit Distance,Balanced Partition,Optimal Strategy for a Game,Box Stacking, Building Bridges,Counting Boolean Parenthesizations,Maximum Value Contiguous Subsequence, rod cutting, optimal binary search tree, 
+Study all DP problems from CLRS, skiena and CTCI for DP
